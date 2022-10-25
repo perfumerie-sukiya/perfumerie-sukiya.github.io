@@ -9,5 +9,4 @@ export default withPWA({
   eslint: { ignoreDuringBuilds: true },
   pwa: { dest: "public", disable: isDev },
   serverRuntimeConfig: { GTM_ID: process.env.GTM_ID || "GTM_ID" },
-  basePath: '/line-richmenu-editor',
 });
